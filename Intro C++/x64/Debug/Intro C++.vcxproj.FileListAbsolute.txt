@@ -1,0 +1,2 @@
+C:\Users\etien\Desktop\Programation\Prog 2\Intro C++\x64\Debug\Intro C++.exe
+C:\Users\etien\Desktop\Cegep\Programation\Prog 3\Intro C++\x64\Debug\Intro C++.exe

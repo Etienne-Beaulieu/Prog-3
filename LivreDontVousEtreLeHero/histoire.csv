@@ -1,0 +1,5 @@
+1;Vous vous reveillez dans une foret sombre. Deux chemins s'offrent à vous : a gauche un sentier etroit, a droite un pont en bois.;2;3;d
+2;Vous prenez le sentier etroit et tombez sur un vieux sage qui vous propose une enigme. Voulez-vous l'ecouter ou continuer votre chemin ?;4;5;i
+3;Le pont en bois craque sous vos pas. Vous pouvez courir pour traverser vite ou revenir en arriere.;4;2;i
+4;Vous avez fait le bon choix ! Le sage vous donne une carte secrete. Felicitations !;0;0;f
+5;Mauvais choix ! Vous tombez dans un piege et l'aventure s'arrete ici.;0;0;f

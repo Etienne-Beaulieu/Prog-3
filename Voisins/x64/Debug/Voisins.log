@@ -1,0 +1,9 @@
+﻿  ListeVin.cpp
+  ResourceLoader.cpp
+  Voisins.cpp
+C:\Users\etien\Desktop\Cegep\Programation\Prog 3\Voisins\Voisins.cpp(18,52): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\etien\Desktop\Cegep\Programation\Prog 3\Voisins\Voisins.cpp(23,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  Voisins.vcxproj -> C:\Users\etien\Desktop\Cegep\Programation\Prog 3\Voisins\x64\Debug\Voisins.exe
+  'pwsh.exe' n'est pas reconnu en tant que commande interne
+  ou externe, un programme exécutable ou un fichier de commandes.

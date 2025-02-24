@@ -1,0 +1,4 @@
+C:\Users\etien\Desktop\Programation\Prog 3\Tetris\x64\Debug\Tetris.vcxproj.CopyComplete
+C:\Users\etien\Desktop\Programation\Prog 3\Tetris\x64\Debug\Tetris.exe
+C:\Users\etien\Desktop\Programation\Prog 3\Tetris\x64\Debug\raylib.dll
+C:\Users\etien\Desktop\Programation\Prog 3\Tetris\x64\Debug\glfw3.dll

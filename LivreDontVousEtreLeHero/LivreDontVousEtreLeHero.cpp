@@ -9,14 +9,41 @@
 int main()
 {
     RessourceLoader ressourceLoader("histoire.csv");
-
-    ressourceLoader.Afficher();
-  
     Liste liste;
 
     ressourceLoader.RemplirListe(liste);
 
-    liste.Afficher();
+    Noeud* courrant = liste.TrouverNoeudDepart();
+
+    if (courrant == nullptr)
+    {
+        std::cout << "Erreur: Aucun point de depart trouve.\n";
+        return 1;
+    }
+
+    while (courrant != nullptr)
+    {
+        std::cout << "\n" << courrant->infos.texte << "\n";
+
+        if (courrant->infos.indicateur == 'f')
+        {
+            std::cout << "Fin de l'histoire.\n";
+            break;
+        }
+
+        int choix;
+        std::cout << "Votre choix (1 ou 2): ";
+        std::cin >> choix;
+
+        if (choix == 1)
+            courrant = liste.TrouverNoeud(courrant->infos.choix1);
+        else if (choix == 2)
+            courrant = liste.TrouverNoeud(courrant->infos.choix2);
+        else
+            std::cout << "Choix invalide.\n";
+    }
+
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

@@ -82,3 +82,27 @@ void Liste::Afficher()
 		iterateur = iterateur->suivant;
 	}
 }
+
+Noeud* Liste::TrouverNoeud(int id)
+{
+	Noeud* courant = m_premier;
+	while (courant != nullptr)
+	{
+		if (courant->infos.id == id)
+			return courant;
+		courant = courant->suivant;
+	}
+	return nullptr;
+}
+
+Noeud* Liste::TrouverNoeudDepart()
+{
+	Noeud* courant = m_premier;
+	while (courant != nullptr)
+	{
+		if (courant->infos.indicateur == 'd')
+			return courant;
+		courant = courant->suivant;
+	}
+	return nullptr;
+}

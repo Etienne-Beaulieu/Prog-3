@@ -13,5 +13,7 @@ public:
 	void Ajouter(Infos);
 	void AssignerPtr(Infos);
 	void Afficher();
+	Noeud* TrouverNoeudDepart();
+	Noeud* TrouverNoeud(int id);
 };
 
